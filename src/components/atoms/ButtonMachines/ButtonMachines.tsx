@@ -30,7 +30,7 @@ export const ButtonMachines = React.forwardRef<
         variant="soft"
         color={color}
         disabled={disabled}
-        className={cn(className)}
+        className={cn("w-40", className)}
         ref={ref}
         {...props}
       >
